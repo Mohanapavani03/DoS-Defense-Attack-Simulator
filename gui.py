@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # ================= CONFIG =================
-SERVER_URL = "http://127.0.0.1:5000"
+SERVER_URL = "###############" #use your sever url
 attack_process = None
 
 # ================= COLORS =================
@@ -284,3 +284,4 @@ def update():
 show_page("home")
 update()
 root.mainloop()
+
