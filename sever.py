@@ -40,8 +40,8 @@ ml_trained = False
 ml_status = "LEARNING"
 
 # ================= EMAIL =================
-ADMIN_EMAIL = "praveentati003@gmail.com"
-EMAIL_PASSWORD = "kdet yosq tsoj neoe"   # Gmail App Password
+ADMIN_EMAIL = "##############"
+EMAIL_PASSWORD = "###############"   # Gmail App Password
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 alert_sent = False
@@ -192,3 +192,4 @@ def status():
 # ================= START =================
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=PORT)
+
