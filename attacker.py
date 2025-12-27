@@ -4,7 +4,7 @@ import random
 import time
 
 # ================= CONFIG =================
-TARGET_URL = 
+TARGET_URL = "#############" #use your local url only for ethical use 
 BOT_COUNT = 8           # number of bot threads
 RUN_DELAY = 0.01        # base delay between requests
 
@@ -61,4 +61,5 @@ try:
 except KeyboardInterrupt:
     running = False
     print("🛑 Attack Stopped")
+
 
