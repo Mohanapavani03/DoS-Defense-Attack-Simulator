@@ -4,7 +4,7 @@ import random
 import time
 
 # ================= CONFIG =================
-TARGET_URL = "http://127.0.0.1:5000/"
+TARGET_URL = 
 BOT_COUNT = 8           # number of bot threads
 RUN_DELAY = 0.01        # base delay between requests
 
@@ -61,3 +61,4 @@ try:
 except KeyboardInterrupt:
     running = False
     print("🛑 Attack Stopped")
+
